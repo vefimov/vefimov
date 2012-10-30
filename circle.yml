@@ -7,8 +7,6 @@ machine:
       0.8.2
 dependencies:
   override:
-    - sudo npm install nodeunit
-    - su npm install nodeunit
     - npm install nodeunit
 test:
   override:
