@@ -7,7 +7,7 @@ machine:
       0.8.2
 dependencies:
   override:
-    - npm install --dev
+    - npm install
 test:
   override:
     - nodeunit unit_test.js
