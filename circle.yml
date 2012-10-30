@@ -1,0 +1,13 @@
+checkout:
+  post:
+    - git submodule update --init
+machine:
+  node:
+    version:
+      0.8.2
+dependencies:
+  override:
+    - npm install --dev
+test:
+  override:
+    - nodeunit unit_test.js

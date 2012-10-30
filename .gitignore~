@@ -1,0 +1,5 @@
+legacy_code/app/server/node_modules/*
+.idea
+node_modules/*
+*.swp
+server/logs/output.log
