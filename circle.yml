@@ -9,7 +9,7 @@ dependencies:
   override:
     - npm install --dev
   post:
-  	- npm install nodeunit
+    - npm install nodeunit
 test:
   override:
     - nodeunit unit_test.js
